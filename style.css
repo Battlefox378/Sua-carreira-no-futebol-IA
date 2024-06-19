@@ -1,0 +1,51 @@
+:root{
+  --cor-fundo: #0a8106 ;
+  --cor-principal: #0a23b3 ;
+  --cor-secundaria: #ddda08;
+  --cor-destaque: #0f8d1a;
+  --cor-texto: #ffffff;
+
+
+}
+
+
+body {
+  background-color: var(--cor-fundo);
+  background-image: url(https://sismf.museudofutebol.org.br/anexos/imagem/556881/w:640/h:640/c:0);
+  background-size: cover;
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.caixa-principal{
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+h1{
+  color: var(--cor-destaque);
+}
+
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+
+button:hover{
+  background-color: var(--cor-destaque);
+  color: var(--cor-principal);
+}
